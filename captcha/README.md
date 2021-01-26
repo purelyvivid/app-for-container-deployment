@@ -13,6 +13,6 @@ export ENDPOINT_URL=localhost:<your port>/api/v1.0/predictions
 ```
 curl -F 'binData=@./<your image location>' ${ENDPOINT_URL}
 ```
-> export ENDPOINT_URL=localhost:<your port>/api/v1.0/predictions 
+> {"jsonData":{"prediction":"<Result>"},"meta":{}}
 
 
