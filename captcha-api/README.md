@@ -1,6 +1,6 @@
 This is a Test APP for Container Deployment.
 This APP allows uploading Content Image and Style Image, then do Style Transfer.
-Container Image as been uploaded to https://hub.docker.com/r/purelyvivid/captcha-demo.
+Container Image as been uploaded to https://hub.docker.com/r/purelyvivid/captcha-demo-api.
 
 ```
 docker run -d --name captcha-demo-api -p <your port>:5000 purelyvivid/captcha-demo:v0
